@@ -68,7 +68,7 @@ A simple introduction for git, maybe in VScode.
 
     git commit -m "提交说明"
     
-    git push origin master
+    git push -u origin master
 
     //完成
 
