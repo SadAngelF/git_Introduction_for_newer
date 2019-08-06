@@ -3,7 +3,7 @@ A simple introduction for git, maybe in VScode.
 
 今天刚好给电脑重新配置git，所以上传上来记录一下，免得每次都得重新搞，给我这样的小白看的，嘻嘻嘻。
 
--[whole.md](https://github.com/SadAngelF/git_Introduction_for_newer/blob/master/whole.md)是一份完整的git教程，是一个系统过程，此md只展示一些遇到的问题和代码。
+[whole.md](https://github.com/SadAngelF/git_Introduction_for_newer/blob/master/whole.md)是一份完整的git教程，是一个系统过程，此md只展示一些遇到的问题和代码。
 
 # vscode配置git
 
