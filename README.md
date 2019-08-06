@@ -40,7 +40,7 @@ A simple introduction for git, maybe in VScode.
 
 ## 1. git提交时，出现本地与远程仓库不匹配，比如远程有readme.md，但是本地没有，所以无法提交时：问题如下图：
 
-    ![错误图片](https://github.com/SadAngelF/git_Introduction_for_newer/blob/master/rejected.png)
+![错误图片](https://github.com/SadAngelF/git_Introduction_for_newer/blob/master/rejected.png)
 
     最简单的方法是：利用git pull将本地和远程先同步，再修改本地，再提交
 
