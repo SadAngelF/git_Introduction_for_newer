@@ -38,7 +38,7 @@ A simple introduction for git, maybe in VScode.
 
 # Git使用过程中的一些细节：
 
-1. git提交时，出现本地与远程仓库不匹配，比如远程有readme.md，但是本地没有，所以无法提交时：问题如下图：
+## 1. git提交时，出现本地与远程仓库不匹配，比如远程有readme.md，但是本地没有，所以无法提交时：问题如下图：
 
     ![报错](https://github.com/SadAngelF/git_Introduction_for_newer/blob/master/rejected.png)
 
@@ -48,7 +48,7 @@ A simple introduction for git, maybe in VScode.
 
     如果已经修改了文件：git pull origin master --allow-unrelated-histories //把远程仓库和本地同步，消除差异
 
-2. 本地已有git仓库，只是修改文件之后（或者是git clone了一个仓库修改想提交）：
+## 2. 本地已有git仓库，只是修改文件之后（或者是git clone了一个仓库修改想提交）：
 
     git add 文件名
     
@@ -56,7 +56,7 @@ A simple introduction for git, maybe in VScode.
 
     git push -u origin master
 
-3. 删除远程错误上传的文件：
+## 3. 删除远程错误上传的文件：
 
     git rm -r -n --cached 文件/文件夹名称
 
