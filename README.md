@@ -27,7 +27,7 @@ A simple introduction for git, maybe in VScode.
     
     执行上传到git仓库命令git commit -m "可写注释内容"
     
-    执行git仓库与github仓库的连接命令git remote add origin https://github.com/你的github的用户名/test.git（这里是你创建的仓库名字加上 .git）
+    执行git仓库与github仓库的连接命令git remote add origin 仓库地址）
     
     执行推送到分支(master)的命令git push -u origin master（分支名字master为主分支）
     
@@ -40,7 +40,7 @@ A simple introduction for git, maybe in VScode.
 
 ## 1. git提交时，出现本地与远程仓库不匹配，比如远程有readme.md，但是本地没有，所以无法提交时：问题如下图：
 
-    ![报错](https://github.com/SadAngelF/git_Introduction_for_newer/blob/master/rejected.png)
+    ![错误图片](https://github.com/SadAngelF/git_Introduction_for_newer/blob/master/rejected.png)
 
     最简单的方法是：利用git pull将本地和远程先同步，再修改本地，再提交
 
