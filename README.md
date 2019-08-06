@@ -56,4 +56,20 @@ A simple introduction for git, maybe in VScode.
 
     git push -u origin master
 
+3. 删除远程错误上传的文件：
+
+    git rm -r -n --cached 文件/文件夹名称
+
+    //加上 -n 这个参数，执行命令时，是不会删除任何文件，而是展示此命令要删除的文件列表预览。
+
+    git rm -r --cached 文件/文件夹名称
+
+    //真正地删除
+
+    git commit -m "提交说明"
+    
+    git push origin master
+
+    //完成
+
 # 目前遇到的问题大概是这样，后续待更新！！！
