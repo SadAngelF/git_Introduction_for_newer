@@ -34,3 +34,21 @@ A simple introduction for git, maybe in VScode.
 
     git config --global credential.helper store
 
+
+# Git使用过程中的一些细节：
+
+1. git提交时，出现本地与远程仓库不匹配，比如远程有readme.md，但是本地没有，所以无法提交时：
+
+    git pull --rebase origin master
+
+    此命令可以同步仓库到当前文件，而不需要重新git clone
+
+2. 本地已有git仓库，只是修改文件之后（或者是git clone了一个仓库修改想提交）：
+
+    git add 文件名
+    
+    git commit -m "文件注释"              //建议增加注释，说明本次push改变了什么，方便别人实时追踪代码
+
+    git push -u origin master
+
+# 目前遇到的问题大概是这样，后续待更新！！！
