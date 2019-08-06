@@ -40,9 +40,11 @@ A simple introduction for git, maybe in VScode.
 
 1. git提交时，出现本地与远程仓库不匹配，比如远程有readme.md，但是本地没有，所以无法提交时：
 
-    git pull --rebase origin master
+    最简单的方法是：利用git pull将本地和远程先同步，再修改本地，再提交
 
-    此命令可以同步仓库到当前文件，而不需要重新git clone
+    如果本地只是缺少readme：git pull --rebase origin master
+
+    如果已经修改了文件：git pull origin master --allow-unrelated-histories //把远程仓库和本地同步，消除差异
 
 2. 本地已有git仓库，只是修改文件之后（或者是git clone了一个仓库修改想提交）：
 
