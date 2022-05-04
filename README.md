@@ -29,6 +29,8 @@ A simple introduction for git, maybe in VScode.
     
     执行git仓库与github仓库的连接命令git remote add origin 仓库地址）
     
+    git branch -M main
+    
     执行推送到分支(master)的命令git push -u origin master（分支名字master为主分支）
     
 5. 输入用户和密码之后保存：
